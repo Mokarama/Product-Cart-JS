@@ -86,8 +86,6 @@ removeCategory(name){
 
     console.log("Subtotal:", subtotal);
   }
-
-  
 }
 
 const store = new Store();
@@ -110,5 +108,5 @@ store.addToCart("Laptop", 1);
 
 store.showAllProducts();
 
-export default (Category, Product,Store);
+export {Category, Product,Store};
 
